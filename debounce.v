@@ -31,6 +31,8 @@ reg [2:0] next;
 
 assign db = present[2];
 
+// initializing parameter based off the debounce design in Pong Chu.
+
 parameter [2:0]
 			s00 = 3'b000,
 			s01 = 3'b001,
